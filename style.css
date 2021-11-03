@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.title {
+    letter-spacing: -.05em;
+    margin-left: 300px;
+    margin-top: 200px;
+    font-size: 80px; 
+}
+
+.subtitle {
+    letter-spacing: -.05em;
+    margin-left: 300px;
+    font-size: 30px;
+    color: #d4d4d4;
+    margin-top: -50px;
+}
+
+.hreflinks {
+    color: rgb(128, 48, 202);
+    margin: 10px;
+    text-shadow: 0 0 5px rgba(128, 48, 202, 0.5);
+}
+
+.hreflinks:hover {
+    color: rgb(103, 39, 163);
+}
+
+.links {
+    margin-left: 290px;
+}
+
+body {
+    background-color: #080808;
+    color: #fff;
+    margin: 0;
+}
+
+/* SKILLS */
+
+ol, ul {
+    list-style: none;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0
+}
+
+li {
+    color: white;
+}
+
+.skill {
+    font-size: 30px;
+    color: #dddddd;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+    padding-left: 300px;
+    display: flex;
+}
+
+.skill-div {
+    margin-right: 20px;
+}
+
+i {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+    .padding-top-100 {
+        padding-top: 100px;
+        padding-left: 200px;
+        display: block;
+    }
+    .links {
+        margin-left: 190px;
+    }
+    .title {
+        letter-spacing: -.05em;
+        margin-left: 200px;
+        margin-top: 200px;
+        font-size: 80px; 
+    }
+
+    .subtitle {
+        letter-spacing: -.05em;
+        margin-left: 200px;
+        font-size: 30px;
+        color: #d4d4d4;
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .padding-top-100 {
+        padding-top: 100px;
+        padding-left: 50px;
+        display: block;
+    }
+    .links {
+        margin-left: 40px;
+    }
+    .title {
+        letter-spacing: -.05em;
+        margin-left: 50px;
+        margin-top: 200px;
+        font-size: 80px; 
+    }
+    .subtitle {
+        letter-spacing: -.05em;
+        margin-left: 50px;
+        font-size: 30px;
+        color: #d4d4d4;
+        margin-top: -50px;
+    }
+}
