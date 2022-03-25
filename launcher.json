@@ -1,0 +1,58 @@
+{
+    "chapters": [
+        {
+            "title": "Rebel Client",
+            "description": "1.8.9",
+            "minecraftVersion": "1.8.9",
+            "type": "release",
+            "customVersion": "RebelClient",
+            "java": {
+                "platform": {
+                    "win32": {
+                        "x64": {
+                            "name": "jdk8u292-b10-jre",
+                            "link": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jre_x64_windows_hotspot_8u292b10.zip",
+                            "sha256sum": "df79660dbc00687928d870d5f9ac91d5dfdd69be2131d5b4b2457b77fc486f54"
+                        },
+                        "ia32": {
+                            "name": "jdk8u292-b10-jre",
+                            "link": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jre_x86-32_windows_hotspot_8u292b10.zip",
+                            "sha256sum": "ee1c52c109bb5b05acb3304f9a9494de01ee7e9a95f33e16627ea916e0f48a2f"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "1.18",
+            "description": "ALtarik 1.18 beta 2",
+            "minecraftVersion": "1.18.1",
+            "type": "snapshot",
+            "customVersion": "fabric-loader-0.12.12-1.18.1",
+            "modspack": {
+                "mods": [
+                    "https://www.dropbox.com/s/ghtcyfkq9wffwcy/1.18.zip?dl=1"
+                ],
+                "sha1sum": [ 
+                    "dc5f89ad8c35ed66c6e8ec7b8260344bc5553c5a"
+                ]
+            },
+            "java": {
+                "platform": {
+                    "win32": {
+                        "x64": {
+                            "name": "jdk-17.0.1+12",
+                            "link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.zip",
+                            "sha256sum": "e5419773052ac6479ff211d5945f8625e0cdb036e69c0f71affaf02d5dc9aa0b"
+                        },
+                        "ia32": {
+                            "name": "jdk-17.0.1+12",
+                            "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.1_12.zip",
+                            "sha256sum" : "604919b02caa5506e8c68888d6410384234e9a9fb0dbc6a0d97eb7652da4cf66"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
